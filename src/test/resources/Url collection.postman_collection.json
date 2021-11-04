@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "9bf95e0b-60ca-49b9-9ecc-9238299af802",
+		"name": "Url collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "fetch url list",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":\"9c3fe895-628a-402f-8d16-f077030db059\",\r\n    \"name\":\"Mohamed Shabeer Updated\",\r\n    \"email\":\"mmshabeer@outlook.com\",\r\n    \"preferences\":[\"sms\"]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/scrapper?url=https://www.letmeship.com",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"scrapper"
+					],
+					"query": [
+						{
+							"key": "url",
+							"value": "https://www.letmeship.com"
+						}
+					]
+				},
+				"description": "End-point to fetch the list of url from given url"
+			},
+			"response": []
+		}
+	]
+}
