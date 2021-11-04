@@ -13,3 +13,9 @@ Required Stack:
 * [Spring Rest Controller](https://spring.io/guides/gs/rest-service/)
 * [Playwright](https://playwright.dev/java/docs/intro/)
 * [Spring Boot Test](https://spring.io/guides/gs/testing-web/)
+
+# To Run
+
+1. Do a maven clean install. >mvn clean install
+2. Run the WebscrapApplication.java spring boot application
+3. Use client like postman to load the sample json under test/resources and hit the end-point
